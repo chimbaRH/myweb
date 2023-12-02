@@ -1086,13 +1086,18 @@ section {
   background: #040b14;
 }
 
+#footer .container {
+  margin: 0;
+  padding: 0;
+}
+
 #footer .copyright {
   text-align: center;
 }
 
 #footer .credits {
   padding-top: 5px;
-  text-align: center;
+  text-align: left;
   font-size: 13px;
   color: #eaebf0;
 }
