@@ -506,6 +506,23 @@ section {
   margin-bottom: 30px;
 }
 
+#portfolio {
+  height: 70rem;
+}
+
+@media screen  and (max-width: 768px) {
+  #portfolio {
+    height: auto;
+  }
+}
+
+.container #projects_subtitle{
+  color: #149ddd;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -576,7 +593,7 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
